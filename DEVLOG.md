@@ -14,3 +14,10 @@ stage commit changes git
 no questions for user
 convensional commit message described in `https://www.conventionalcommits.org/en/v1.0.0/`
 
+
+create a new workspace promptfile `/create-workflow-prompt` {see `.ai_docs/promptfile.md`} which contains
+- based on a given high level description (given as an argument)
+- create a promptfile with a logical name based on description
+- translate a given high level description into smaller steps for agents
+- include section workflow with a description of steps which are needed to achive a given description
+- include section outcome with a desired outcome

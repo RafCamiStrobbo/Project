@@ -40,11 +40,11 @@ You are an expert at creating conventional commit messages following the specifi
 - Include `BREAKING CHANGE:` footer if introducing breaking changes
 
 **Process:**
-1. Use #tool:mcp_gitkraken_git_status to check current changes
+1. Check current changes using standard git commands (git status, git diff)
 2. Analyze the changes to determine the appropriate type and scope
 3. Generate a clear, descriptive commit message
-4. Use #tool:mcp_gitkraken_git_add_or_commit with action='add' to stage all files
-5. Use #tool:mcp_gitkraken_git_add_or_commit with action='commit' to commit with the generated message
+4. Stage all files using git add
+5. Commit with the generated message using git commit
 
 **Important:**
 - Execute all steps automatically without asking for confirmation
