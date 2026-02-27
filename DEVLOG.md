@@ -21,3 +21,12 @@ create a new workspace promptfile `/create-workflow-prompt` {see `.ai_docs/promp
 - translate a given high level description into smaller steps for agents
 - include section workflow with a description of steps which are needed to achive a given description
 - include section outcome with a desired outcome
+
+
+/create-workflow-prompt
+Create a detailed implementation plan for the given feature (specs file ref will be given as an argument)
+- The API contracts should be as simple as possible and well defined.
+- Include psuedo code for the most relevant bits.
+- Include a testing plan (unit-tests).
+- The plans must be stored in `.ai_docs/plans/{spec_name}.md` where spec_name is taken from the file ref argument.
+- The plan must be clear for a junior developer and include all nessecary details.
