@@ -1,0 +1,14 @@
+.clockContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.time {
+  font-size: 6rem;
+  font-weight: 300;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #333;
+}
